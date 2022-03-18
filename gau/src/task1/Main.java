@@ -133,13 +133,13 @@ public class Main {
 //        System.out.println(arr.getClass().getName());
 
         //task12
-        List<Integer> arr = new ArrayList<Integer>();
-        for (int i = 0; i < 10; i++) {
-            int random = (int)(Math.random() * 20 + 1);
-            arr.add(random);
-        }
-        arr.sort(Collections.reverseOrder());
-        System.out.println(arr);
+//        List<Integer> arr = new ArrayList<Integer>();
+//        for (int i = 0; i < 10; i++) {
+//            int random = (int)(Math.random() * 20 + 1);
+//            arr.add(random);
+//        }
+//        arr.sort(Collections.reverseOrder());
+//        System.out.println(arr);
     }
 }
 
