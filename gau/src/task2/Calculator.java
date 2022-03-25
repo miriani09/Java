@@ -2,7 +2,7 @@ package task2;
 import java.util.Scanner;
 
 public class Calculator {
-    private double n1, n2;
+    double n1, n2;
 
     public void calc() {
         Scanner sr = new Scanner(System.in);
