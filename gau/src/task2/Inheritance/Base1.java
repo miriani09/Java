@@ -13,7 +13,6 @@ public class Base1 {
         System.out.println("Enter Parent Number: ");
         Scanner sc = new Scanner(System.in);
         x = sc.nextInt();
-        System.out.println(x);
     }
 
     public void Method2(){

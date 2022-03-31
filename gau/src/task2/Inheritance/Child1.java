@@ -11,8 +11,8 @@ public class Child1 extends Base1{
         y = sc.nextInt();
     }
 
-    public int Method5(){
-        return y + x;
+    public void Method5(){
+        System.out.println(x + y);
     }
 
 }
