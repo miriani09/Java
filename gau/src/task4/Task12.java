@@ -5,7 +5,7 @@ public class Task12 {
 
     public void EasyPercent(){
         int percent = p / 100 * k;
-        int q = p + percent;
+        q = p + percent;
         System.out.println(q);
     }
 }
