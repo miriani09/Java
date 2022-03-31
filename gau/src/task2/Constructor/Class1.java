@@ -4,6 +4,7 @@ public class Class1 {
     int x;
     public Class1(int x){
         this.x = x;
+        System.out.println("Hello world");
     }
 
     public void Method1(){
