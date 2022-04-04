@@ -1,7 +1,5 @@
 package task2.Project1;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         Class1 class1 = new Class1();

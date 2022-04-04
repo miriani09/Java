@@ -26,7 +26,7 @@ public class Task1 {
             Scanner sc = new Scanner(System.in);
             String inputTxt = sc.nextLine();
 
-            FileWriter filewriter = new FileWriter("C:\\Users\\miria\\IdeaProjects\\Java\\gau\\src\\task4\\myFiles\\doc.txt");
+            FileWriter filewriter = new FileWriter("C:\\Users\\miria\\IdeaProjects\\Java\\gau\\src\\task4\\myFiles\\doc.txt", true);
             filewriter.write(inputTxt);
             filewriter.close();
             System.out.println("Successfully wrote to the file");

@@ -140,6 +140,17 @@ public class Main {
 //        }
 //        arr.sort(Collections.reverseOrder());
 //        System.out.println(arr);
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("pirveli riccxvi: ");
+        int num1 = sc.nextInt();
+        System.out.println("meore ricxvi: ");
+        int num2 = sc.nextInt();
+
+        for (int i = num1; i <= num2; i++) {
+            int rand = (int) (Math.random() * 20 + 1);
+            System.out.println(rand);
+        }
     }
 }
 
