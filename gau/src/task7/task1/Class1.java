@@ -1,5 +1,4 @@
 package task7.task1;
-import java.awt.List;
 import java.util.*;
 
 public class Class1 {
